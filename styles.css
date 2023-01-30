@@ -1,0 +1,203 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+header hr, main hr {
+    color: black;
+    background-color: #FFFFFF;
+}
+
+header {
+    position: relative;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+header div {
+    text-align: center;
+}
+
+header div img {
+    width: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+.search {
+    float: right;
+    list-style-type: none;
+    overflow: hidden;
+    position: absolute;
+    top: 0.7rem;
+    right: 0rem; 
+    text-align: center;
+    padding: 10px 12px;
+}
+.search img {
+    width: 20px;
+    /* position: absolute;
+    top: 0px;
+    right: 0px; */
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container img {
+    width: 100%;
+    height: 450px;
+}
+
+.left-note {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: x-large;
+}
+
+.right-note {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: x-large;
+}
+main {
+    margin: 1rem auto;
+    width: 80%;
+}
+
+main section {
+    margin-top: 6rem;
+    padding: 2rem;
+}
+
+.about {
+    position: relative;
+    display: inline;
+}
+
+.about p {
+    color: #707070;
+    margin: 3rem;
+}
+
+.about img.left {
+    float: left;
+    margin: 3rem;
+    width: 200px;
+}
+
+.about img.right {
+    float: right;
+    margin: 3rem;
+    width: 300px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.product-list img {
+    width: 150px;
+}
+
+.product-description {
+    color: #707070;
+}
+
+.product-detail {
+    color: #BF7631;
+}
+
+.product-list button {
+    background-color: #BF7631;
+    color: #FFFFFF;
+    border: 0;
+}
+
+.contact form {
+    color: #707070;
+    border: 0;
+    list-style-type: none;
+}
+
+.contact button {
+    color: #FFFFFF;
+    background-color: #BF7631;
+    border: 0;
+}
+
+footer {
+    background-color: #BF7631;
+    color: black;
+    padding: 4rem;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+footer div {
+    text-align: center;
+    font-size: 40px;
+}
+
+footer div img {
+    width: 40px;
+}
+.social-media-left img {
+    width: 40px;
+}
+
+.social-media-left{
+    margin-left: 0.5rem;
+    float: left;
+
+}
+
+.social-media-right img {
+    width: 40px;
+}
+
+.social-media-right {
+    margin-right: 0.5rem;
+    float: right;
+}
+
+.footnote ul {
+    list-style-type: none;
+    position: absolute;
+    bottom: 0.7rem;
+    right: 1rem;
+}
+
+.footnote li {
+    display: inline;
+    font-size: x-small;
+    margin-right: 10rem;
+}
