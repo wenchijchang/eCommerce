@@ -2,6 +2,10 @@ html {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -113,9 +117,11 @@ main section {
 }
 
 .product-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    /* display: flex;
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: row; */
 }
 
 .product-card {
@@ -123,8 +129,6 @@ main section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    height: 100px;
-    width: 150px;
     text-decoration: none;
 }
 
@@ -138,10 +142,12 @@ main section {
 .product-description {
     color: #707070;
     font-size: xx-small;
+    text-decoration: none;
 }
 
 .product-name, .product-price {
     font-size: small;
+    color: black;
 }
 
 .product-detail {
